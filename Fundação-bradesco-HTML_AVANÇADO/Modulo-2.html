@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Modulo 2 - Formulários</h1>
+    </head>
+    <body>
+        <div>
+            <form action="email@email.com" method="get" align="center">
+                <p>Nome:<input type="text" name="nome" size="5" maxlength="12"></p>
+                <p>Sabor de Comida favorita:<input type="text" name="sabor" size="5"></p>
+                <p>Comida estranha que gosta<input type="password" name="estranho"></p>
+                <p>Selecione o Energético favorito <br>
+                    <input type=radio name="mons" checked>Monster <br>
+                    <input type=radio name="nos">Nos</p>
+                <P>Selecione o que quer comer:<BR>
+                    <INPUT TYPE=checkbox NAME=food1 SIZE="1">Pizza<BR>
+                    <INPUT TYPE=checkbox NAME="food2" SIZE="1">Lasanha<BR>
+                    <INPUT TYPE=checkbox NAME="food3" SIZE="1">Strogonoff</P>
+                <P>Bebida: <INPUT TYPE=TEXT  NAME="end"  SIZE="30"</P>
+                <P>Adicionais: <TEXTAREA NAME="ref" ROWS="2" COLS= "40"></TEXTAREA></P>
+                <p>Se você escolheu Nos, o negócio do energético, escola uma comida para eu ver se você é confiavél</p>
+                <select name="energ">
+                    <option>Batata com bacon e queijo</option>
+                    <option>Arroz e Feijão</option>
+                    <option>Peixe</option>
+                </select>
+                <p>Agora a mesma coisa de forma diferente pra eu aprender</p>
+                <select name="energ" size="3">
+                    <option>Batata com bacon e queijo</option>
+                    <option>Arroz e Feijão</option>
+                    <option>Peixe</option>
+                </select><br>
+                <INPUT TYPE=submit VALUE="Enviar Pedido?"><INPUT TYPE=reset VALUE="Refazer">
+                <INPUT TYPE=hidden NAME="cpf" VALUE="verdadeiro">
+            </form>
+        </div>
+    </body>
+</html>
