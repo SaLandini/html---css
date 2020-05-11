@@ -1,0 +1,44 @@
+@font-face {
+    src: url("fonts/PressStart2P-Regular.ttf");
+    font-family: "Titulo";
+    font-weight: lighter;
+} 
+@font-face {
+    src: url("fonts/SourceSansPro-Regular.ttf");
+    font-family: "Corpo";
+    font-weight: bolder;
+}
+@font-face {
+    src: url("fonts/FiraSansCondensed-BoldItalic.ttf");
+    font-family: "Ref";
+    font-weight: unset;
+}
+#titulo {
+    color: #ebdbb2;
+    text-align: center;
+    background-color: #ed492b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+#topico-py {
+    vertical-align: middle;
+    text-align: center;
+    font-family: "Titulo";
+    color: #8d6c9e;
+}
+#body {
+    font-family: "Corpo";
+    color: #83a598;
+    margin-left: 400px;
+}
+a:-webkit-any-link {
+    font-family: "Ref";
+    vertical-align: top;
+    color: #83a598;
+    cursor: pointer;
+    text-decoration: underline;
+}
+html {
+    background-color: #1d2021;
+    scrollbar-color: #2f3131;
+}
