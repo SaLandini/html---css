@@ -1,0 +1,50 @@
+@font-face{
+    src: url("fonts/VT323-Regular.ttf");
+    font-family: "corpo";
+    font-weight: lighter;
+}
+@font-face{
+    src: url("fonts/PressStart2P-Regular.ttf");
+    font-family: "Titulo";
+    font-weight: bolder;
+}
+html {
+    background: #1d2021;
+    background-size: 100%;
+}
+.tabela {
+    
+    background-color: #317489;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.tabela tr{
+    font-family: "corpo";
+    font-size: larger;
+}
+.head {
+    font-family: "corpo";
+    background-color: #317489;
+}
+.descri {
+    background-color: #317489;
+    position: fixed;
+    bottom:0;
+    right: 0;
+    left: 0;
+}
+.descri h1 {
+    font-family: "Titulo";
+    align-items: center;
+    vertical-align: middle;
+}
+.descri p {
+    font-family: "corpo";
+    vertical-align: middle;
+}
+.rede {
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
